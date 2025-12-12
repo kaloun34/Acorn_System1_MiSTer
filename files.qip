@@ -29,6 +29,6 @@ set_global_assignment -name VERILOG_FILE rtl/monitor.v
 # set_global_assignment -name VERILOG_FILE rtl/monitor_bb.v
 
 # QIP files (IP cores générés par Quartus)
-set_global_assignment -name QIP_FILE memory.qip
-set_global_assignment -name QIP_FILE monitor.qip
-set_global_assignment -name QIP_FILE rtl/pll/pll.qip
+set_global_assignment -name QIP_FILE rtl/memory.qip
+set_global_assignment -name QIP_FILE rtl/monitor.qip
+set_global_assignment -name QIP_FILE rtl/pll.qip
