@@ -200,7 +200,10 @@ wire [24:0] ps2_mouse;
 wire [10:0] ps2_key;
 wire [64:0] RTC;
 
-hps_io #(.STRLEN($size(CONF_STR)>>3)) hps_io
+hps_io #(
+	.CONF_STR(CONF_STR),
+	.STRLEN($size(CONF_STR)>>3)
+) hps_io
 (
 	.clk_sys(clk_sys),
 	.HPS_BUS(HPS_BUS),
