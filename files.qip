@@ -23,10 +23,10 @@ set_global_assignment -name VERILOG_FILE rtl/peripherals/ps2_mouse.v
 set_global_assignment -name VERILOG_FILE rtl/vga.v
 
 # Mémoire et Monitor
-set_global_assignment -name VERILOG_FILE rtl/memory.v
-set_global_assignment -name VERILOG_FILE rtl/memory_bb.v
-set_global_assignment -name VERILOG_FILE rtl/monitor.v
-set_global_assignment -name VERILOG_FILE rtl/monitor_bb.v
+# set_global_assignment -name VERILOG_FILE rtl/memory.v
+# set_global_assignment -name VERILOG_FILE rtl/memory_bb.v
+# set_global_assignment -name VERILOG_FILE rtl/monitor.v
+# set_global_assignment -name VERILOG_FILE rtl/monitor_bb.v
 
 # QIP files (IP cores générés par Quartus)
 set_global_assignment -name QIP_FILE memory.qip

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for AcornSystem1
-Fri Dec 12 15:20:20 2025
+Fri Dec 12 15:25:56 2025
 Quartus Prime Version 17.0.2 Build 602 07/19/2017 SJ Lite Edition
 
 
@@ -38,7 +38,7 @@ agreement for further details.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Fri Dec 12 15:20:20 2025           ;
+; Analysis & Synthesis Status ; Failed - Fri Dec 12 15:25:56 2025           ;
 ; Quartus Prime Version       ; 17.0.2 Build 602 07/19/2017 SJ Lite Edition ;
 ; Revision Name               ; AcornSystem1                                ;
 ; Top-level Entity Name       ; sys_top                                     ;
@@ -163,7 +163,7 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.2 Build 602 07/19/2017 SJ Lite Edition
-    Info: Processing started: Fri Dec 12 15:20:04 2025
+    Info: Processing started: Fri Dec 12 15:25:41 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off AcornSystem1 -c AcornSystem1
 Warning (125092): Tcl Script File rtl/pll.qip not found
     Info (125063): set_global_assignment -name QIP_FILE rtl/pll.qip -qip sys/pll_q17.qip
@@ -289,13 +289,9 @@ Info (12021): Found 1 design units, including 1 entities, in source file rtl/cpu
     Info (12023): Found entity 1: cpu File: /home/tonton/Acorn_System1_MiSTer/rtl/cpu/cpu.v Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/cpu/ALU.v
     Info (12023): Found entity 1: ALU File: /home/tonton/Acorn_System1_MiSTer/rtl/cpu/ALU.v Line: 20
-Info (12021): Found 1 design units, including 1 entities, in source file rtl/peripherals/m6522.v
-    Info (12023): Found entity 1: m6522 File: /home/tonton/Acorn_System1_MiSTer/rtl/peripherals/m6522.v Line: 50
-Error (12049): Can't compile duplicate declarations of entity "m6522" into library "work" File: /home/tonton/Acorn_System1_MiSTer/rtl/peripherals/m6522.vhd Line: 54
-    Error (12180): Instance could be entity "m6522" in file rtl/peripherals/m6522.v compiled in library work File: /home/tonton/Acorn_System1_MiSTer/rtl/peripherals/m6522.v Line: 50
-    Error (12180): Instance could be entity "M6522" in file rtl/peripherals/m6522.vhd compiled in library work File: /home/tonton/Acorn_System1_MiSTer/rtl/peripherals/m6522.vhd Line: 54
 Info (12021): Found 2 design units, including 1 entities, in source file rtl/peripherals/m6522.vhd
     Info (12022): Found design unit 1: M6522-RTL File: /home/tonton/Acorn_System1_MiSTer/rtl/peripherals/m6522.vhd Line: 97
+    Info (12023): Found entity 1: M6522 File: /home/tonton/Acorn_System1_MiSTer/rtl/peripherals/m6522.vhd Line: 54
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/peripherals/ps2_mouse.v
     Info (12023): Found entity 1: ps2_mouse File: /home/tonton/Acorn_System1_MiSTer/rtl/peripherals/ps2_mouse.v Line: 19
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga.v
@@ -313,11 +309,11 @@ Info (12021): Found 0 design units, including 0 entities, in source file rtl/mon
 Warning (12019): Can't analyze file -- file memory.v is missing
 Warning (12019): Can't analyze file -- file monitor.v is missing
 Info (144001): Generated suppressed messages file /home/tonton/Acorn_System1_MiSTer/output_files/AcornSystem1.map.smsg
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 5 errors, 4 warnings
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 2 errors, 4 warnings
     Error: Peak virtual memory: 997 megabytes
-    Error: Processing ended: Fri Dec 12 15:20:20 2025
-    Error: Elapsed time: 00:00:16
-    Error: Total CPU time (on all processors): 00:00:39
+    Error: Processing ended: Fri Dec 12 15:25:56 2025
+    Error: Elapsed time: 00:00:15
+    Error: Total CPU time (on all processors): 00:00:38
 
 
 +------------------------------------------+
