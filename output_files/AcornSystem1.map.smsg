@@ -37,3 +37,12 @@ Warning (10268): Verilog HDL information at video_freak.sv(173): always construc
 Info (10281): Verilog HDL Declaration information at arcade_video.v(31): object "clk_video" differs only in case from object "CLK_VIDEO" in the same scope File: /home/tonton/Acorn_System1_MiSTer/sys/arcade_video.v Line: 31
 Info (10281): Verilog HDL Declaration information at arcade_video.v(185): object "FB_EN" differs only in case from object "fb_en" in the same scope File: /home/tonton/Acorn_System1_MiSTer/sys/arcade_video.v Line: 185
 Info (10281): Verilog HDL Declaration information at yc_out.sv(72): object "C" differs only in case from object "c" in the same scope File: /home/tonton/Acorn_System1_MiSTer/sys/yc_out.sv Line: 72
+Info (10281): Verilog HDL Declaration information at AcornSystem1.sv(27): object "RESET" differs only in case from object "reset" in the same scope File: /home/tonton/Acorn_System1_MiSTer/AcornSystem1.sv Line: 27
+Info (10281): Verilog HDL Declaration information at AcornSystem1.sv(444): object "swd" differs only in case from object "swD" in the same scope File: /home/tonton/Acorn_System1_MiSTer/AcornSystem1.sv Line: 444
+Warning (10268): Verilog HDL information at system1_core.v(228): always construct contains both blocking and non-blocking assignments File: /home/tonton/Acorn_System1_MiSTer/rtl/system1_core.v Line: 228
+Info (10281): Verilog HDL Declaration information at system1_core.v(30): object "swd" differs only in case from object "swD" in the same scope File: /home/tonton/Acorn_System1_MiSTer/rtl/system1_core.v Line: 30
+Warning (10268): Verilog HDL information at m6522.v(390): always construct contains both blocking and non-blocking assignments File: /home/tonton/Acorn_System1_MiSTer/rtl/peripherals/m6522.v Line: 390
+Warning (10268): Verilog HDL information at m6522.v(732): always construct contains both blocking and non-blocking assignments File: /home/tonton/Acorn_System1_MiSTer/rtl/peripherals/m6522.v Line: 732
+Warning (10268): Verilog HDL information at m6522.v(809): always construct contains both blocking and non-blocking assignments File: /home/tonton/Acorn_System1_MiSTer/rtl/peripherals/m6522.v Line: 809
+Warning (10268): Verilog HDL information at m6522.v(824): always construct contains both blocking and non-blocking assignments File: /home/tonton/Acorn_System1_MiSTer/rtl/peripherals/m6522.v Line: 824
+Warning (10268): Verilog HDL information at m6522.v(884): always construct contains both blocking and non-blocking assignments File: /home/tonton/Acorn_System1_MiSTer/rtl/peripherals/m6522.v Line: 884

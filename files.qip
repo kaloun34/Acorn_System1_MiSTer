@@ -15,7 +15,7 @@ set_global_assignment -name VERILOG_FILE rtl/cpu/cpu.v
 set_global_assignment -name VERILOG_FILE rtl/cpu/ALU.v
 
 # Périphériques
-set_global_assignment -name VERILOG_FILE rtl/peripherals/m6522.v
+# set_global_assignment -name VERILOG_FILE rtl/peripherals/m6522.v
 set_global_assignment -name VHDL_FILE rtl/peripherals/m6522.vhd
 set_global_assignment -name VERILOG_FILE rtl/peripherals/ps2_mouse.v
 
