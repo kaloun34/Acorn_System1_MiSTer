@@ -1,0 +1,34 @@
+# files.qip - Liste de tous les fichiers HDL du core Acorn System 1
+# Généré pour migration vers template Sorgelig
+
+# Module principal (glue)
+set_global_assignment -name SYSTEMVERILOG_FILE AcornSystem1.sv
+
+# Build ID
+set_global_assignment -name VERILOG_FILE build_id.v
+
+# Core principal
+set_global_assignment -name VERILOG_FILE rtl/system1_core.v
+
+# CPU (6502)
+set_global_assignment -name VERILOG_FILE rtl/cpu/cpu.v
+set_global_assignment -name VERILOG_FILE rtl/cpu/ALU.v
+
+# Périphériques
+set_global_assignment -name VERILOG_FILE rtl/peripherals/m6522.v
+set_global_assignment -name VHDL_FILE rtl/peripherals/m6522.vhd
+set_global_assignment -name VERILOG_FILE rtl/peripherals/ps2_mouse.v
+
+# VGA
+set_global_assignment -name VERILOG_FILE rtl/vga.v
+
+# Mémoire et Monitor
+set_global_assignment -name VERILOG_FILE rtl/memory.v
+set_global_assignment -name VERILOG_FILE rtl/memory_bb.v
+set_global_assignment -name VERILOG_FILE rtl/monitor.v
+set_global_assignment -name VERILOG_FILE rtl/monitor_bb.v
+
+# QIP files (IP cores générés par Quartus)
+set_global_assignment -name QIP_FILE memory.qip
+set_global_assignment -name QIP_FILE monitor.qip
+set_global_assignment -name QIP_FILE rtl/pll/pll.qip
