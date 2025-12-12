@@ -5,7 +5,7 @@
 set_global_assignment -name SYSTEMVERILOG_FILE AcornSystem1.sv
 
 # Build ID
-set_global_assignment -name VERILOG_FILE build_id.v
+#set_global_assignment -name VERILOG_FILE build_id.v
 
 # Core principal
 set_global_assignment -name VERILOG_FILE rtl/system1_core.v
